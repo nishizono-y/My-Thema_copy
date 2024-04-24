@@ -1,0 +1,43 @@
+.slide_show{
+    height: 500px;
+    background-position: center;
+    background-size: cover;
+  }
+
+  .main_card_img{
+    height: 250px;
+    background-position: center;
+    background-size: cover;
+  }
+
+  #sidebar {
+    text-align: center;
+  }
+
+  .sidebar_stley{
+    width: 250px;
+    height: 200px;
+  }
+
+  .footer_line{
+    padding: 0;
+    position: relative;
+  }
+
+  .footer_line::before {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 220px;
+  }
+
+  .f_box {
+    display: flex;
+    flex-direction: row; /* f_boxの子要素を横並びにする */
+}
+
+.f_item{
+  margin-left: auto;
+}
+
+
